@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const handleActiveLink = (scrollDown) => {
         sections.forEach(current => {
             const sectionHeight = current.offsetHeight;
-            const sectionTop = current.offsetTop - headerHeight - 200;
+            const sectionTop = current.offsetTop - headerHeight - 450;
             const sectionId = current.getAttribute('id');
             
             const link = navLinksMap.get(sectionId);

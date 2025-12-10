@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +24,7 @@
                     <li><a href="#contact" class="nav-link">Contato</a></li>
                 </ul>
             </div>
-            
+
             <button class="btn-mobile" aria-label="Abrir menu">
                 <i class="fa-solid fa-bars"></i>
             </button>
@@ -34,8 +35,12 @@
         <section id="home" class="section container divider">
             <div class="home-text">
                 <h1 class="title">FRONTEND <span class="accent">DEVELOPER</span></h1>
-                <p>Desenvolvedor Frontend dedicado a aprender e aplicar as melhores práticas, criando interfaces intuitivas.</p>
-                <a href="#projects" class="btn">PROJETOS</a>
+                <p>Desenvolvedor Frontend dedicado a aprender e aplicar as melhores práticas, criando interfaces
+                    intuitivas.</p>
+                <div class="buttons">
+                    <a href="#projects" class="btn btn-projects">Ver meus projetos</a>
+                    <a href="#contact" class="btn">Entre em contato</a>
+                </div>
             </div>
 
             <div class="home-img">
@@ -43,42 +48,69 @@
             </div>
         </section>
 
-        <section id="about" class="section container divider">
+        <section id="about" class="section container divider reveal">
             <h2 class="title">SOBRE MIM</h2>
             <div class="about-container">
                 <div class="about-img">
-                    <img src="assets/picture.png" alt="Ilustração abstrata de tecnologia">
+                    <img src="assets/picture.svg" alt="Ilustração abstrata de tecnologia">
                 </div>
                 <div class="about-text">
-                    <h3 class="title">&lt; Ricardo Sampaio &gt;</h3>
-                    <p>Sou um desenvolvedor frontend em início de carreira, focado em criar interfaces modernas, responsivas e acessíveis. Trabalho principalmente com <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>React</strong>, buscando unir design e código limpo para oferecer experiências digitais funcionais e intuitivas enquanto aprimoro minhas habilidades a cada projeto.
+                    <p>
+                        Sempre fui movido pela curiosidade de entender como as coisas funcionam. Cursando Análise e
+                        Desenvolvimento de Sistemas na FATEC, encontrei no Frontend a combinação perfeita para unir a
+                        lógica da programação com a criatividade do design. <br><br>
+
+                        Para mim, o código é o meio para criar experiências incríveis. Hoje, transformo layouts e ideias
+                        em interfaces reais e interativas, utilizando <strong class="bold">HTML</strong>, <strong class="bold">CSS</strong> e
+                        <strong class="bold">JavaScript</strong> como base sólida, enquanto avanço na construção de aplicações
+                        modernas com <strong class="bold">React</strong>.
                     </p>
-                    <a  class="btn" href="assets/Ricardo_Sampaio_Curriculo.pdf" download>
+                    <a class="btn" href="assets/Ricardo_Sampaio_Curriculo.pdf" download>
                         <i class="fa-solid fa-file-arrow-down"></i>
-                        CURRÍCULO
+                        Baixar Currículo
                     </a>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="section container divider">
+        <section id="projects" class="section container divider reveal">
             <h2 class="title">PROJETOS</h2>
             <div class="projects-grid">
                 <article class="projects-card">
-                    <img src="assets/project-01-prime-burger.jpg" alt="Página inicial do projeto Prime Burger">
+                    <img src="assets/project-02-prime-burger.jpg" alt="Página inicial do projeto Prime Burger">
                     <h3>Prime Burger</h3>
-                    <p>Projeto de uma hamburgueria moderna, focado em criar uma experiência interativa e fácil de usar. O desafio foi transformar um design profissional em uma landing page responsiva, usando HTML semântico, CSS (Grid/Flexbox) para o layout e JavaScript para dar vida a interações, como o menu mobile.
+                    <p>
+                        Landing page de alta fidelidade focada em UI Design. O desafio foi traduzir um layout profissional em código limpo, utilizando CSS Grid e Flexbox para garantir responsividade total e uma experiência de usuário fluida.
                     </p>
-                    <p>HTML5, CSS3, JavaScript.</p>
+                    <p><strong>HTML, CSS, JavaScript.</strong></p>
+
                     <div class="links">
-                        <a href="https://rgsampaio.github.io/prime-burger/" target="_blank" rel="noopener">Ver projeto</a>
-                        <a href="https://github.com/rgsampaio/prime-burger" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://rgsampaio.github.io/prime-burger/" target="_blank" rel="noopener">Ver
+                            projeto</a>
+                        <a href="https://github.com/rgsampaio/prime-burger" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </article>
+                
+                <article class="projects-card">
+                    <img src="assets/project-01-invencivel.jpg" alt="Página inicial do projeto Invencível">
+                    <h3>Invencível</h3>
+                    <p>
+                        Landing page temática baseada no currículo do The Odin Project. O foco foi dominar a estruturação de layouts utilizando exclusivamente CSS Flexbox, aplicando uma identidade visual de alto contraste inspirada na série.
+                    </p>
+                    <p><strong>HTML, CSS</strong></p>
+
+                    <div class="links">
+                        <a href="https://rgsampaio.github.io/landing-page-invencivel/" target="_blank" rel="noopener">Ver
+                            projeto</a>
+                        <a href="https://github.com/rgsampaio/landing-page-invencivel" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-github"></i></a>
                     </div>
                 </article>
             </div>
         </section>
 
-        <section id="skills" class="section container divider">
+        <section id="skills" class="section container divider reveal">
             <h2 class="title">HABILIDADES</h2>
             <p>Principais ferramentas e tecnologias que impulsionam meus projetos:</p>
 
@@ -103,14 +135,14 @@
                     <span>React</span>
                 </div>
 
-                <div class="skill-item">
+                <!-- <div class="skill-item">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
                         <path
                             d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0"
                             fill="#18B4B8" />
                     </svg>
                     <span>Tailwind</span>
-                </div>
+                </div> -->
 
                 <div class="skill-item">
                     <i class="fa-brands fa-git-alt"></i>
@@ -129,10 +161,11 @@
             </div>
         </section>
 
-        <section id="contact" class="section container">
+        <section id="contact" class="section container reveal">
             <h2 class="title">FALE COMIGO</h2>
-            <p>Estou sempre em busca de novas conexões e desafios. Se você tem um projeto em mente ou uma vaga, adoraria conversar! Mande uma mensagem e retornarei o mais breve possível.</p>
-
+            <p>Estou sempre em busca de novas conexões e desafios. Se você tem um projeto em mente ou uma vaga, adoraria
+                conversar!
+            </p>
             <div>
                 <div class="contact-card" style="--color: var(--whatsapp); --shadow: var(--whatsapp);">
                     <a href="https://wa.me/5511949506924" target="_blank">
@@ -163,9 +196,10 @@
     </main>
 
     <footer class="footer section container">
-        <p>Copyright © 2025 - Developed by Ricardo Sampaio.</p>
+        <p>© 2025 Ricardo Sampaio. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
