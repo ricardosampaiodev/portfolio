@@ -319,6 +319,7 @@ img {
 
 .about-text p {
     margin-bottom: 3rem;
+    text-align: justify;
 }
 
 .about-text .fa-file-arrow-down {
@@ -340,8 +341,8 @@ img {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 3.4rem;
     text-align: left;
 }
 
