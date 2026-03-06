@@ -3,7 +3,7 @@
 Este portfólio foi criado para apresentar meus projetos, ideias e evolução como desenvolvedor.  
 Focado em clareza, fluidez e experiência visual.
 
-🔗 **Acesse online:** [rgsampaio.github.io/portfolio](https://rgsampaio.github.io/portfolio/)
+🔗 **Acesse online:** [https://ricardosampaio.dev/](https://ricardosampaio.dev/)
 
 ## 🕹️ Visão Geral
 Este portfólio foi projetado e desenvolvido do zero com foco em:
@@ -18,4 +18,4 @@ Este portfólio foi projetado e desenvolvido do zero com foco em:
 - Design responsivo e minimalista  
 
 ## 📫 Contato
-Entre em contato por [LinkedIn](https://www.linkedin.com/) ou e-mail.
+Entre em contato por [LinkedIn](https://www.linkedin.com/in/ricardo-galdin-de-sampaio/) ou e-mail.
